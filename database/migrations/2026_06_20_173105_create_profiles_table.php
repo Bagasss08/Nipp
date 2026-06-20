@@ -31,10 +31,6 @@ return new class extends Migration {
 
             $table->string('youtube')->nullable();
 
-            $table->string('website')->nullable();
-
-            $table->text('address')->nullable();
-
             $table->timestamps();
 
         });
